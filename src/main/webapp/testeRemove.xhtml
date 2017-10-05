@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f = "http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+    <meta charset="UTF-8"/>
+    <title>Remove UF</title>
+</h:head>
+<h:body>
+    <h:form>
+        <h:inputText id="ufDigitado" name="ufDigitado" value="#{removeUf.nome}"/>
+        <h:commandButton id="btnAdicionar" value="Adicionar" action="#{removeUf.retornaUf}"/>
+    </h:form>
+</h:body>
+</html>
